@@ -1,0 +1,16 @@
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+.testimonials {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16 0;
+  display: inline-block;
+  width: 95%;
+  background-color: #ddd;
+}
+img {
+  width: 50px;
+  border-radius: 50px;
+}
