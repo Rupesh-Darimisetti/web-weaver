@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+.dropdown-menu > details {
+  margin: 10px;
+  width: clamp(360px, 45%, 720px);
+  display: inline-table;
+  background-color: #3f36;
+}
+details > a {
+  color: blue;
+}
+i {
+  font-weight: 900;
+  padding-left: 10px;
+}

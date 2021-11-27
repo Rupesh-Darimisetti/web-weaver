@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links to stylesheets -->
+    <link rel="stylesheet" href="components/css/footer.css">
+    <link rel="stylesheet" href="components/css/nav.css">
+    <link rel="stylesheet" href="css/contact_us.css">
+    <!-- font awesone cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Contact Us</title>
 </head>
+
 <body>
     <!-- Nav Bar -->
     <nav>
         Teloh
-    <ul>
-        <li><a href="home.html">home</a></li>
-        <li><a href="about.html">about Us</a></li>
-        <details>
-        <summary>Gallery</summary>
-        <li>
-            <li><a href="Gallery_image.html">photo</a></li>
-            <li><a href="Gallery_video.html">video</a></li>
-        </li>
-        </details>
-        <li><a href="offering.html">Offering</a></li>
-        <li><a href="cusines.html">Cusines</a></li>
-        <li><a href="our_team.html">Team</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="signin.html">Sign In</a></li>
-    </ul>
-</nav>
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about Us</a></li>
+            <details>
+                <summary>Gallery</summary>
+                <li>
+                <li><a href="Gallery_image.html">photo</a></li>
+                <li><a href="Gallery_video.html">video</a></li>
+                </li>
+            </details>
+            <li><a href="offering.html">Offering</a></li>
+            <li><a href="cusines.html">Cusines</a></li>
+            <li><a href="our_team.html">Team</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+        </ul>
+    </nav>
+    <!-- Nav Bar ends here-->
+    <!-- Body -->
+    <div class="contact_us">
+        <h1>Get in Touch with us</h1>
+        <form action="sumit">
+            <ul class="name">
+                <li>first name <input type="text"></li>
+                <li>last name <input type="text"></li>
+            </ul>
+            <li class="email">Email <input type="email" placeholder="email@gmail.com"></li>
+            <li class="message">Message <input type="summary"></li>
+            <button>Submit</button>
+        </form>
+    </div>
+    <div class="reach_us">
+        <h1>Other ways to reach us</h1>
+        <div class="services">
+            <h1 class="fa fa-comment">chat</h1>
+            <li><a href="#">Avialable Hours:</a></li>
+            <li>9am-9pm IST</li> 
+            <li>7 days a week</li>
+        </div>
+        <div class="services">
+            <h1 class="fa fa-phone-alt">call us</h1>
+            <li>+9112345676890</li>
+            <li>9am-9pm IST </li>
+            <li>7 days a week</li> 
+        </div>
+        <div class="services">
+            <h1 class="fa fa-envelope">Mail us</h1>
+            <li>support@teloh.org</li>
+            <li>24 x 7</li>
+        </div>
+    </div>
+    <!-- Body ends here -->
+    <!-- Footer -->
+    <footer>
+        <div class="left">
+            <ul>
+                <h1>Quick link</h1>
+                <li><a href="#">Covid-19 Update</a></li>
+                <li><a href="#">Safety Measure</a></li>
+                <li><a href="#">Destinations</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <ul>
+                <h1>Help</h1>
+                <li><a href="#">FAQ?</a></li>
+                <li><a href="../contact_us.html">Contact Us</a></li>
+                <li><a href="#">Quick Tour</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <h1>Never miss out a offer to chill! <br>Subscribe to our newsletter
+                </h1>
+                <input placeholaer="enter your mail" />
+                <button name="submit" placeholaer="email@gmail.com">Submit</button>
+            </ul>
+        </div>
+        <hr>
+        <p>All rights reserved | teloh group of hotels | made with 🤍</p>
+    </footer>
+    <!-- Footer ends -->
 </body>
+
 </html>

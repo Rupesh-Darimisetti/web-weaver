@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+.name > input {
+  width: clamp(320px, 100%, 720px);
+}
+.email > input {
+  width: 250px;
+}
+.reach_us {
+  padding: 50x;
+  margin: 10px;
+  display: inline-flexbox;
+  text-align: space-between;
+}
+.services {
+  background-color: #c23a;
+  display: inline-grid;
+  width: 150px;
+  height: 200px;
+  text-align: equidistant;
+}
