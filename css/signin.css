@@ -1,0 +1,16 @@
+
+.signin {
+  width: clamp(180px, 50%, 720px);
+  height: 250px;
+  display: grid;
+  padding: 5px;
+  margin: 10px 30% 10px 30%;
+  background-color: #ddbaba;
+}
+input[type="checkbox"] {
+  padding: auto;
+}
+button {
+  padding: 5px;
+  margin: 15px;
+}

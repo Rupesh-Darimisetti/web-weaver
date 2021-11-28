@@ -1,0 +1,19 @@
+* {
+  text-align: center;
+  place-content: space-evenly;
+  padding: 1px;
+  margin: 1px;
+}
+img {
+  width: clamp(320px, 100%, 1980px);
+  
+}
+.scrollable-image {
+  position: relative;
+  margin: 2px;
+  display: inline-flex;
+}
+.scrollable-image > img {
+  width: 200px;
+  display: inline-flex;
+}
