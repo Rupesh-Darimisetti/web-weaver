@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+form{
+  align-items: center;
+  display: grid;
+  width: 80%;
+}
+.text{
+  width: 50%;
+  display: grid;
+  align-items: start;
+}
+.email{
+display:contents;
+}
+.message{
+  display: contents;
+}
+.message>input{
+  text-align: start;
+  width: 100%;
+  height: 150px;
+}
+.submit{
+  margin:20px
+}
+.reach_us {
+  padding: 50x;
+  margin: 10px;
+  justify-content: space-between;
+}
+.services {
+  background-color: #c23a;
+  width: clamp(180px, 25%, 720px);
+  height: 150px;
+  margin: 20px;
+  display: inline-grid;
+  justify-content: space-evenly;
+}
+.content {
+  text-align: center;
+}

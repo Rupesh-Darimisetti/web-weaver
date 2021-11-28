@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+.cusine-description{
+    display: flex;
+    padding: 10px;
+    background-color:#6a5a;
+    margin: 10px;
+}
+img{
+    position: relative;
+    width: 150px;
+    margin:10px
+}

@@ -1,0 +1,10 @@
+iframe{
+    width: 160px;
+    height: 120px;
+}
+.video-frame{
+    background-color: bisque;
+    width: 30%;
+    display: inline-box;
+    text-align:center;
+}

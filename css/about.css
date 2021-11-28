@@ -1,0 +1,77 @@
+.journey {
+  position: relative;
+  width: 100%;
+}
+.journey-text {
+  content: "";
+  position: relative;
+  width: 6px;
+  top: 0px;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -1px;
+  background: rgb(7, 124, 111);
+}
+.right-text {
+  display: block;
+  margin: 15px;
+  width: 250px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 60px;
+  padding-left: -30px;
+  background: rgb(205, 255, 255);
+  border-left: 5px solid rgb(221, 221, 221);
+  text-align: center;
+  padding: 25px;
+}
+.left-text {
+  display: block;
+  margin-left: -15px;
+  width: 250px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 60px;
+  padding-right: 30px;
+  background: rgb(205, 255, 255);
+  border-right: 5px solid rgb(221, 221, 221);
+  transform: translate3d(-100%, 0, 0);
+  text-align: center;
+  padding: 25px;
+}
+.main-image {
+  width: 100%;
+  height: 50%;
+}
+.country > ul {
+  margin: auto;
+  padding: auto;
+  font-size: 15px;
+  display: inline-grid;
+  align-self: start;
+}
+.description {
+  display: inline-block;
+  align-self: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

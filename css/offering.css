@@ -1,0 +1,16 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+.membership-benefits{
+    padding: auto;
+    margin: 0 auto;
+}
+.membership-benefits>p>u>a{
+    color: blue;
+    font-size: 15px;
+}
