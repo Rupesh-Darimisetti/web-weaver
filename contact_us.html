@@ -20,8 +20,8 @@
     <nav>
         Teloh
         <ul>
-            <li><a href="home.html">home</a></li>
-            <li><a href="about.html">about Us</a></li>
+            <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about Us</a></li>
             <details>
                 <summary>Gallery</summary>
                 <li>
@@ -40,34 +40,40 @@
     <!-- Body -->
     <div class="contact_us">
         <h1>Get in Touch with us</h1>
-        <form action="sumit">
+        <form  method="post">
             <ul class="name">
-                <li>first name <input type="text"></li>
-                <li>last name <input type="text"></li>
+                <li class="text">first name <input type="text"></li>
+                <li class="text">last name <input type="text"></li>
             </ul>
-            <li class="email">Email <input type="email" placeholder="email@gmail.com"></li>
-            <li class="message">Message <input type="summary"></li>
-            <button>Submit</button>
+            <li class="email"> Email <input type="email" placeholder="email@gmail.com"></li>
+            <li class="message"> Message <input type="summary"></li>
+            <button class="submit" type="post">Submit</button>
         </form>
     </div>
     <div class="reach_us">
         <h1>Other ways to reach us</h1>
         <div class="services">
-            <h1 class="fa fa-comment">chat</h1>
-            <li><a href="#">Avialable Hours:</a></li>
-            <li>9am-9pm IST</li> 
-            <li>7 days a week</li>
+            <h1 class="fa fa-comment"> chat</h1>
+            <div class="content">
+                <a href="#">Avialable Hours:</a> <br>
+                9am-9pm IST <br>
+                7 days a week
+            </div>
         </div>
         <div class="services">
-            <h1 class="fa fa-phone-alt">call us</h1>
-            <li>+9112345676890</li>
-            <li>9am-9pm IST </li>
-            <li>7 days a week</li> 
+            <h1 class="fa fa-phone-alt"> call us</h1>
+            <div class="content">
+                +9112345676890<br>
+                9am-9pm IST <br>
+                7 days a week
+            </div>
         </div>
         <div class="services">
-            <h1 class="fa fa-envelope">Mail us</h1>
-            <li>support@teloh.org</li>
-            <li>24 x 7</li>
+            <h1 class="fa fa-envelope"> Mail us</h1>
+            <div class="content">
+                support@teloh.org<br>
+                24 x 7
+            </div>
         </div>
     </div>
     <!-- Body ends here -->
