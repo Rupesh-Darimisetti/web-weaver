@@ -1,51 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- links to stylesheets -->
-    <link rel="stylesheet" href="components/footer.css">
-    <link rel="stylesheet" href="components/nav.css">
+    <link rel="stylesheet" href="components/css/footer.css">
+    <link rel="stylesheet" href="components/css/nav.css">
     <link rel="stylesheet" href="css/work.css">
     <title>Our Work</title>
 </head>
+
 <body>
     <!-- Nav -->
     <nav>
         Teloh
-    <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about Us</a></li>
-        <details>
-        <summary>Gallery</summary>
-        <li>
-            <li><a href="Gallery_image.html">photo</a></li>
-            <li><a href="Gallery_video.html">video</a></li>
-        </li>
-        </details>
-        <li><a href="offering.html">Offering</a></li>
-        <li><a href="cusines.html">Cusines</a></li>
-        <li><a href="our_team.html">Team</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="signin.html">Sign In</a></li>
-    </ul>
-</nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about Us</a></li>
+            <details>
+                <summary>Gallery</summary>
+                <li>
+                <li><a href="Gallery_image.html">photo</a></li>
+                <li><a href="Gallery_video.html">video</a></li>
+                </li>
+            </details>
+            <li><a href="offering.html">Offering</a></li>
+            <li><a href="cusines.html">Cusines</a></li>
+            <li><a href="our_team.html">Team</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+        </ul>
+    </nav>
     <!-- Body -->
+    <div class="top">
+        <div class="image">
+            <img src="city.png" alt="_blank">
+            <h4 class="bottom-left">Trending news headline goes here... <a href="#">know more</a></h4>
+        </div>
+        <div class="scrollable-news">
+            <h4> Latest News</h4>
+            <marquee class="news" behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();">
+                Headlines go here with some text.... <a href="#">know here</a>
+                <br>Headlines go here with some text.... <a href="#">know here</a>
+                <br>Headlines go here with some text.... <a href="#">know here</a>
+            </marquee>
+        </div>
+    </div>
     <div>
         <h1>Our Stats</h1>
+        <div class="stats">
+            <p>80+ <br> Destinations <br> Avialable</p>
+            <p class="vl"></p>
+            <p>$10M <br> Donated <br> Social Work</p>
+            <p class="vl"></p>
+            <p>98% <br> Customers <br> Satisfaction</p>
+            <p class="vl"></p>
+            <p>500+ <br> Services <br> offered</p>
+        </div>
     </div>
     <!--Testimonials  -->
     <h2>Testimonials</h2>
     <div class="testimonials">
-        
         <img src="city.png" alt="">
         <p>"This hotel has been my go to place for peace. it's spread over
-            various places so everytime i have to go to a new place. I search 
+            various places so everytime i have to go to a new place. I search
             for teloh because of the ambience and service offered."
         </p>
     </div>
+    <div class="testimonials">
+        <img src="city.png" alt="">
+        <p>"This hotel has been my go to place for peace. it's spread over
+            various places so everytime i have to go to a new place. I search
+            for teloh because of the ambience and service offered."
+        </p>
+    </div>
+   
+    <div class="testimonials">
+        <img src="city.png" alt="">
+        <p>"This hotel has been my go to place for peace. it's spread over
+            various places so everytime i have to go to a new place. I search
+            for teloh because of the ambience and service offered."
+        </p>
+    </div>
+   
     <!-- Testimonial ends -->
     <!-- Footer -->
+    <footer>
+        <div class="left">
+            <ul>
+                <h1>Quick link</h1>
+                <li><a href="#">Covid-19 Update</a></li>
+                <li><a href="#">Safety Measure</a></li>
+                <li><a href="#">Destinations</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <ul>
+                <h1>Help</h1>
+                <li><a href="#">FAQ?</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Quick Tour</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <h1>Never miss out a offer to chill! <br>Subscribe to our newsletter
+                </h1>
+                <input placeholaer="enter your mail" />
+                <button name="submit" placeholaer="email@gmail.com">Submit</button>
+            </ul>
+        </div>
+        <hr>
+        <p>All rights reserved | teloh group of hotels | made with 🤍</p>
+    </footer>
+    <!-- Footer ends here -->
 </body>
+
 </html>
