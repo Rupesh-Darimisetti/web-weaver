@@ -1,10 +1,17 @@
-iframe{
-    width: 160px;
-    height: 120px;
+h1 {
+  text-align: center;
 }
-.video-frame{
-    background-color: bisque;
-    width: 30%;
-    display: inline-box;
-    text-align:center;
+iframe {
+  width: 280px;
+}
+.video-frame {
+  background-color: #E5E5E5;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  place-content: center;
+}
+.video-frame>p{
+padding: 5px;
+margin: 2px;
 }
