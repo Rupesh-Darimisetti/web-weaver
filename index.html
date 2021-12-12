@@ -5,110 +5,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- links to stylesheets -->
-    <link rel="stylesheet" href="components/css/footer.css">
-    <link rel="stylesheet" href="components/css/nav.css">
-    <link rel="stylesheet" href="css/home.css">
     <!-- font awesone cdn -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <!-- links to stylesheets -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/home.css">
     <title>Home</title>
 </head>
 
 <body>
-    <nav>
-        Teloh
-        <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="about.html">about Us</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">Gallery
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="Gallery_image.html">photo</a>
-                    <a href="Gallery_video.html">video</a>
-                </div>
+    <!-- navbar begins here -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Teloh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">about Us</a></li>
+                    <!-- dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gallery
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Gallery_image.html">image</a></li>
+                            <li><a class="dropdown-item" href="Gallery_video.html">video</a></li>
+                        </ul>
+                    </li>
+                    <!-- dropdown ends -->
+                    <li class="nav-item"><a class="nav-link" href="offering.html">Offering</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cusines.html">Cusines</a></li>
+                    <li class="nav-item"><a class="nav-link" href="our_team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact us</a></li>
+                </ul>
             </div>
-            <li><a href="offering.html">Offering</a></li>
-            <li><a href="cusines.html">Cusines</a></li>
-            <li><a href="our_team.html">Team</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="signin.html">Sign In</a></li>
-        </ul>
+        </div>
     </nav>
-    <!-- Nav ends -->
-    <!-- Body -->
-    <div class="know">
-        <h1>Complete Perfection <br /> At your every stop</h1>
-        <button type="submit">know more</button>
-    </div>
-    <!-- <div class="hwrap">
-        <div class="hmove">
-            <div class="hitem">we provide a safe stay for our clients. <a href="#">Know more</a> about covid-19 measures</div>
-        </div>
-    </div> -->
-    <div class="banner">we provide a safe stay for our clients. <a href="#">Know more</a> about covid-19 measures</div>
-    <div>
-        <h2>Find a perfect match for your desire</h2>
-        <div class="cards">
-            <i class="fas fa-hamburger"></i>
-            <h5>EAT</h5>
-            <p>Are you a foodie?
-                Check our cusines with wide range of delicious dishes</p>
-        </div>
-        <div class="cards">
-            <i class="fas fa-atlas"></i>
-            <h5>TRAVEL</h5>
-            <p>if you love the view of beach from your room or the view of hill top we are here.</p>
-        </div>
-        <div class="cards">
-            <i class="fas fa-bed"></i>
-            <h5>REST</h5>
-            <p>Who doesn't want a break from this busy world. Relax with out services.</p>
-        </div>
-    </div>
-    <div class="member">
-        <img src="https://e8rbh6por3n.exactdn.com/sites/uploads/2020/05/villa-la-gi-1.jpg?strip=all&lossy=1&ssl=1"
-            alt="_blank" class="img-responsive">
+    <!-- Navbar ends -->
 
-        <div class="member-content">
-            <h2>Want to become a member?</h2>
-            <p>we love to give more than we take. <br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, sequi. Sunt dolores facere minus ipsum
-                maiores iste necessitatibus qui, delectus dolor fugit voluptas impedit porro? Neque deleniti aspernatur
-                corporis cum.</p>
-            <button type="submit" class="member-btn">Become a member</button>
+    <!-- Body -->
+    <div class="m-5 ml-2">
+        <h1 class="card-title">Complete Perfection <br /> At your every stop</h1>
+        <button type="submit" class="btn btn-primary">know more</button>
+    </div>
+
+    <div class="bg-dark text-center text-light">
+        <marquee class="news" behavior="scroll" direction="" onmouseover="this.stop();" onmouseout="this.start();">
+            <p class="card-description">we provide a safe stay for our clients. <a href="#">Know more</a> about
+                covid-19 measures</p>
+        </marquee>
+    </div>
+
+    <!-- cards -->
+    <h2 class="text-center m-3">Find a perfect match for your desire</h2>
+    <div class="card-group m-3">
+        <div class="card text-center m-2 bg-light">
+            <i class="fas fa-hamburger m-3"></i>
+            <div class="card-body">
+                <h5 class="card-title">EAT</h5>
+                <p class="card-text">Are you a foodie?
+                    Check our cusines with wide range of delicious dishes</p>
+            </div>
+        </div>
+        <div class="card text-center m-2 bg-light">
+            <i class="fas fa-atlas m-3"></i>
+            <div class="card-body">
+                <h5 class="card-title">TRAVEL</h5>
+                <p class="card-text">if you love the view of beach from your room or the view of hill top we are here.
+                </p>
+            </div>
+        </div>
+        <div class="card text-center m-2 bg-light">
+            <i class="fas fa-bed m-3"></i>
+            <div class="card-body">
+                <h5 class="card-title">REST</h5>
+                <p class="card-text">Who doesn't want a break from this busy world. Relax with out services.</p>
+            </div>
         </div>
     </div>
+    <!-- cards ends here -->
+
+    <div class="m-2 p-2">
+        <p class="text-center">
+            we have more in store for you. Check our <a>Offering</a>
+            to know more. Still not convinced? Why not <a>take a tour</a>
+            and see how it looks through the eye of others.
+        </p>
+    </div>
+    <div class="card-group">
+        <img src="https://e8rbh6por3n.exactdn.com/sites/uploads/2020/05/villa-la-gi-1.jpg?strip=all&lossy=1&ssl=1"
+            alt="_blank" class="card text-start m-3">
+
+        <div class="card text-end m-3">
+            <h2 class="card-title text-center m-2">Want to become a member?</h2>
+            <p class="card-text text-center p-2">we love to give more than we take. <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, sequi. Sunt dolores facere minusipsum
+                maiores iste necessitatibus qui, delectus dolor fugit voluptas impedit porro? Neque delenitiaspernatur
+                corporis cum.</p>
+            <button type="submit" class="btn btn-primary">Become a member</button>
+        </div>
+    </div>
+
+    <!-- footer begins here -->
     <footer>
-        <div class="left">
-            <ul>
-                <h1>Quick link</h1>
-                <li><a href="#">Covid-19 Update</a></li>
-                <li><a href="#">Safety Measure</a></li>
-                <li><a href="#">Destinations</a></li>
-            </ul>
-        </div>
-        <div class="center">
-            <ul>
-                <h1>Help</h1>
-                <li><a href="#">FAQ?</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Quick Tour</a></li>
-            </ul>
-        </div>
-        <div class="right">
-            <ul>
-                <h1>Never miss out a offer to chill! <br>Subscribe to our newsletter
-                </h1>
-                <input placeholaer="enter your mail" />
+        <div class="d-flex row text-center">
+            <div class="col-lg-3 col-sm-6">
+                <h4 class="row m-2">Quick link</h4>
+                <a class="row m-2" href="#">Covid-19 Update</a>
+                <a class="row m-2" href="#">Safety Measure</a></li>
+                <li class="row m-2"><a class="row m-2" href="#">Destinations</a></li>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <h4 class="row m-2">Help</h4>
+                <a class="row m-2" href="#">FAQ?</a>
+                <a class="row m-2" href="../contact_us.html">Contact Us</a>
+                <a class="row m-2" href="#">Quick Tour</a>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <h4 class="row m-2">Never miss out a offer to chill! <br>Subscribe to our newsletter
+                </h4>
+                <input placeholaer="enter your mail" label="mail" />
                 <button name="submit" placeholaer="email@gmail.com">Submit</button>
-            </ul>
+                <p>Want to become a member? <a href="#"> Join Us</a></p>
+
+            </div>
         </div>
         <hr>
         <p>All rights reserved | teloh group of hotels | made with 🤍</p>
     </footer>
+    <!-- footer ends here -->
 </body>
 
 </html>

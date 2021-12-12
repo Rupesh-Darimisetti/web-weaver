@@ -1,0 +1,38 @@
+.navbar-expand-md {
+  background-color: #213764;
+  color: #f5fbef !important;
+}
+.navbar-toggler-icon {
+  background-color: #f5fbef;
+}
+.navbar-brand {
+  color: #f5fbef !important;
+}
+.nav-link {
+  font-size: 15px;
+  color: #f5fbef !important;
+}
+.active {
+  text-decoration-line: underline;
+  color: #f5fbef !important;
+}
+
+/* footer */
+footer{
+  background-color: #213764;
+  color: #f5fbef !important
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
+  place-content: center;
+}
+footer a{
+  color: aqua;
+  font-weight: bold;
+  font-size: 15px;
+  place-content: center;
+}
+footer p{
+  padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
