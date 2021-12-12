@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- links to stylesheets -->
-    <link rel="stylesheet" href="components/css/footer.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <!-- <link rel="stylesheet" href="components/css/nav.css"> -->
     <link rel="stylesheet" href="css/contact_us.css">
     <!-- font awesone cdn -->
@@ -23,7 +23,7 @@
 
 <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-info">
+    <nav class="navbar navbar-expand-md navbar-light ">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Teloh</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -51,7 +51,7 @@
                     <li class="nav-item"><a class="nav-link" href="cusines.html">Cusines</a></li>
                     <li class="nav-item"><a class="nav-link" href="our_team.html">Team</a></li>
                     <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
-                    <li class="nav-item"><a class="nav-link" href="signin.html">Sign In</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact us</a></li>
                 </ul>
             </div>
         </div>
@@ -60,13 +60,13 @@
     <!-- Body -->
     <div class="contact_us">
         <h1>Get in Touch with us</h1>
-        <form  method="post">
+        <form method="post">
             <ul class="name">
                 <li class="text">first name <input type="text"></li>
                 <li class="text">last name <input type="text"></li>
+                <li class="email"> Email <input type="email" placeholder="email@gmail.com"></li>
+                <li class="message"> Message <input type="summary"></li>
             </ul>
-            <li class="email"> Email <input type="email" placeholder="email@gmail.com"></li>
-            <li class="message"> Message <input type="summary"></li>
             <button class="submit" type="post">Submit</button>
         </form>
     </div>
@@ -99,29 +99,29 @@
     <!-- Body ends here -->
     <!-- Footer -->
     <footer>
-        <div class="left">
-            <ul>
-                <h1>Quick link</h1>
-                <li><a href="#">Covid-19 Update</a></li>
-                <li><a href="#">Safety Measure</a></li>
-                <li><a href="#">Destinations</a></li>
-            </ul>
-        </div>
-        <div class="center">
-            <ul>
-                <h1>Help</h1>
-                <li><a href="#">FAQ?</a></li>
-                <li><a href="../contact_us.html">Contact Us</a></li>
-                <li><a href="#">Quick Tour</a></li>
-            </ul>
-        </div>
-        <div class="right">
-            <ul>
-                <h1>Never miss out a offer to chill! <br>Subscribe to our newsletter
-                </h1>
-                <input placeholaer="enter your mail" />
+        <div class="d-flex row text-center">
+            <div class="col-lg-3 col-sm-6">
+                <h4 class="row m-2">Quick link</h4>
+                <a class="row m-2" href="#">Covid-19 Update</a>
+                <a class="row m-2" href="#">Safety Measure</a></li>
+                <li class="row m-2"><a class="row m-2" href="#">Destinations</a></li>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <h4 class="row m-2">Help</h4>
+                <a class="row m-2" href="#">FAQ?</a>
+                <a class="row m-2" href="../contact_us.html">Contact Us</a>
+                <a class="row m-2" href="#">Quick Tour</a>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <h4 class="row m-2">Never miss out a offer to chill! <br>Subscribe to our newsletter
+                </h4>
+                <input placeholaer="enter your mail" label="mail" />
                 <button name="submit" placeholaer="email@gmail.com">Submit</button>
-            </ul>
+                <p>Want to become a member? <a href="#"> Join Us</a></p>
+
+            </div>
         </div>
         <hr>
         <p>All rights reserved | teloh group of hotels | made with 🤍</p>

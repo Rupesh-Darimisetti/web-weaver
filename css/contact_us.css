@@ -1,3 +1,6 @@
+*{
+  padding: auto;
+}
 h1 {
   text-align: center;
 }
@@ -12,10 +15,12 @@ form{
   align-items: start;
 }
 .email{
-display:contents;
+display:grid;
+width: 50%;
 }
 .message{
-  display: contents;
+  display: grid;
+  width: 70%;
 }
 .message>input{
   text-align: start;
@@ -23,7 +28,10 @@ display:contents;
   height: 150px;
 }
 .submit{
-  margin:20px
+  margin:20px;
+  width: 50%;
+  place-content: center;
+  justify-content: center;
 }
 .reach_us {
   padding: 50x;
@@ -35,6 +43,8 @@ display:contents;
   width: clamp(180px, 25%, 720px);
   height: 150px;
   margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
   display: inline-grid;
   justify-content: space-evenly;
 }

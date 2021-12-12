@@ -1,39 +1,62 @@
-h1,h2,h3,h4,h5,h6{
-    text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
 }
 
 .bottom-left {
   position: absolute;
-  bottom: 160px;
+  bottom: 200px;
   left: 15px;
-  color:#fff;
+  color: #fff;
   width: 180px;
   height: 30px;
+  padding-left: 20px;
 }
-.bottom-left>a{
-  color:#666 !important;
+.bottom-left > a {
+  color: #666 !important;
   font-size: 15px;
+  bottom: 30px;
 }
-.scrollable-news{
+.scrollable-news {
   border: 5px solid #6ad;
-  width: clamp(180px,40%,720px);
-  height: clamp(180px,100%, 720px);
+  width: clamp(180px, 40%, 720px);
+  height: clamp(180px, 100%, 720px);
   padding: 20px;
   margin: 20px;
 }
-.stats{
+.news-container {
+  height: 50%;
+}
+.news {
+  border: 2px solid #000;
+}
+.news p {
+  margin: auto;
+}
+.news .card-description {
+  padding: 15px;
+}
+
+.even-card {
+  background-color: rgb(216, 216, 216);
+}
+.stats {
   display: flex;
   background-color: #ddf;
 }
-.top{
+/* .top {
   display: flex;
-}
-.image>img{
+} */
+.card-img {
   width: 500px;
   height: 500px;
 }
 /* Testimonials decoration */
-.testimonials {
+/* .testimonials {
   position: relative;
   border: 2px solid #236;
   border-radius: 5px;
@@ -55,12 +78,42 @@ h1,h2,h3,h4,h5,h6{
   bottom: 40px;
   text-align: center;
   border-radius: 50px;
+} */
+.rounded-circle {
+  margin: 0 auto;
+  width: 120px;
+  padding: 10px;
+  border: 5px dotted #ffffff;
+  border-radius: 100px;
 }
-
+.carousel-item {
+  position: relative;
+  margin: 0 15px;
+  text-align: center;
+}
+.inspiration-img {
+  position: relative;
+  margin-bottom: 15px;
+  z-index: 1;
+}
+.carousel-item p {
+  position: relative;
+  margin-top: -70px;
+  padding: 55px 35px 30px 35px;
+  text-align: center;
+  background: #b25def;
+  border-radius: 500px;
+}
+.carousel .card-group {
+  position:relative;
+  height: 300px;
+  background-color: #6ad;
+  padding-right :25px;
+}
 /* vetical line in between our status tab */
-.vl{
-  width: 10px;
-  height: 60px;
-  background-color: #000;
-  text-decoration-style: dotted;
+.row .vl {
+  width: 1px !important;
+  padding: 2px;
+  background-color: #666;
+  /* text-decoration-style: dotted; */
 }
