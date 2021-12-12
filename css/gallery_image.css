@@ -8,7 +8,7 @@ img {
   width: clamp(320px, 100%, 1980px);
   
 }
-.scrollable-image {
+/* .scrollable-image {
   position: relative;
   margin: 2px;
   display: inline-flex;
@@ -16,4 +16,18 @@ img {
 .scrollable-image > img {
   width: 200px;
   display: inline-flex;
+} */
+
+.carousel-item {
+  background: #777;
+  position: relative;
+}
+
+.carousel-item>img {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
 }
