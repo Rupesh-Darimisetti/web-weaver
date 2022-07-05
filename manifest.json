@@ -1,7 +1,7 @@
 {
     "name": "Web Weaver",
     "short_name": "WebWeaver",
-    "start_url": "https://rupesh-darimisetti.github.io/web-weaver/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
